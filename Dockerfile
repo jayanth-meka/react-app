@@ -3,4 +3,4 @@ WORKDIR /app
 COPY . .
 ENV API_URL=http://api.myapp.com/
 RUN npm start
-EXPOSE 3000
+EXPOSE 3001
